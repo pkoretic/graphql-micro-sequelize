@@ -1,0 +1,26 @@
+{
+  "name": "backi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server-micro": "^1.2.0",
+    "casual": "^1.5.17",
+    "graphiql": "^0.11.10",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.7.2",
+    "sequelize": "^4.22.7",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "micro": "^9.0.1",
+    "micro-dev": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "author": "",
+  "license": "MIT"
+}
